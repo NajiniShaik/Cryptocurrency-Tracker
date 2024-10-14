@@ -1,0 +1,97 @@
+/* Write your CSS code here */
+.detailed-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-title {
+  color: #00e7ff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .detailed-container {
+    width: 80%;
+  }
+  .main-title {
+    font-size: 44px;
+  }
+}
+
+.img {
+  width: 100%;
+}
+
+.crypto-currency-list {
+  border: 3px solid #00e7ff;
+  border-radius: 4px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px 24px;
+}
+
+@media (min-width: 576px) {
+  .crypto-currency-list {
+    margin: 0px 48px;
+  }
+}
+
+/****/
+
+.list-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 24px;
+  background-color: #092e33;
+}
+
+@media (min-width: 576px) {
+  .list-header {
+    padding: 16px 48px;
+  }
+}
+
+.list-coin-type-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+@media (min-width: 576px) {
+  .list-coin-type-heading {
+    font-size: 24px;
+  }
+}
+
+.usd-and-euro-coin-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-coin-value-heading {
+  text-align: right;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  width: 52px;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+@media (min-width: 576px) {
+  .list-coin-value-heading {
+    font-size: 24px;
+    width: 72px;
+    margin-left: 48px;
+  }
+}
